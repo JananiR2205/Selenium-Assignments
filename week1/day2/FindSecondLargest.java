@@ -9,7 +9,7 @@ public class FindSecondLargest {
 		Arrays.sort(data);
 		int len = data.length;
 		System.out.println("The Second Largest Number is " + data[len-2]);
-		System.out.println(len);
+		
 
 	}
 
