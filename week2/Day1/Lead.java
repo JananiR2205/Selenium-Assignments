@@ -81,8 +81,7 @@ public class Lead {
 				String title = chrome.getTitle();
 				System.out.println(title);
 				
-				//Thread.sleep(3000);
-				//create.close();
+				
 		
 	}
 	
@@ -114,6 +113,7 @@ public class Lead {
 		
 		String title = chrome.getTitle();
 		System.out.println(title);
+		chrome.close();
 	
 		
 	}
